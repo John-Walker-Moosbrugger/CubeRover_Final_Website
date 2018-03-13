@@ -1,0 +1,52 @@
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(100, 89, 144, .0), rgba(100, 89, 144, .5)), url("../img/cubeMain.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 2rem;
+
+
+    &__call {
+        margin-top: 25vh;
+        color: var(--color-white);
+
+        &--small {
+            font-size: 2rem;
+        }
+
+        &--large {
+            font-size: 5rem;
+            font-weight: 400;
+            margin-top: -1rem;
+            margin-bottom: .75rem;
+            
+        }
+    }
+}
+
+.contain {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nav__user {
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: space-between;
+
+    &--btn {
+        font-size: 2rem;
+
+    }
+}
+
+.nav__logo {
+    height: 4rem;
+}

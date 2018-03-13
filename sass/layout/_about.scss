@@ -1,0 +1,51 @@
+.about {
+    background-color: var(--color-white);
+    display: flex;
+    height: 100vh;
+    min-height: 55rem;
+
+    &__img {
+        flex: 1;
+        background-image: linear-gradient(to top, rgba(100, 89, 144, .0), rgba(100, 89, 144, .5)), url(../img/about.png);
+        background-size: cover;
+        background-position: center;
+        
+    }
+
+    &__col {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    &__blurb {
+        flex: 1;
+        max-width: 40rem;
+
+        &:last-child {
+            padding-right: 5rem;
+            padding-left: 2.5rem;
+        }
+
+        &:not(:last-child) {
+            padding-left: 5rem;
+            padding-right: 2.5rem;
+        }
+
+        &--title {
+            font-size: 2.5rem;
+        }
+
+        &--text {
+            font-size: 1.6rem;
+        }
+    }
+}
