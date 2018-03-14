@@ -4,8 +4,12 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
+@import "components/simpleBTN";
+@import "components/boxBTN";
+
 @import "layout/footer";
 @import "layout/about";
+@import "layout/news";
 @import "layout/header";
 @import "layout/navigation";
 
@@ -14,5 +18,3 @@
 @import "base/typography";
 @import "base/utilities";
 
-@import "components/simpleBTN";
-@import "components/boxBTN";

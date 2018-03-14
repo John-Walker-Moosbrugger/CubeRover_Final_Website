@@ -1,3 +1,32 @@
+.smplBTN {
+  transition: .2s ease-in-out; }
+
+.smplBTN:link,
+.smplBTN:visited {
+  color: var(--color-white);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300; }
+
+.smplBTN:hover {
+  transform: translateY(2px); }
+
+.boxBTN {
+  transition: .2s ease-in-out; }
+
+.boxBTN:link,
+.boxBTN:visited {
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 2rem;
+  border: 1px solid var(--color-white);
+  padding: .7rem; }
+
+.boxBTN:hover {
+  color: var(--color-grey-dark-1);
+  background-color: var(--color-white); }
+
 .about {
   background-color: var(--color-white);
   display: flex;
@@ -29,6 +58,37 @@
       font-size: 2.5rem; }
     .about__blurb--text {
       font-size: 1.6rem; }
+
+.news {
+  display: flex; }
+
+.article {
+  flex: 1;
+  padding: 4rem;
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .article__btn {
+    flex: 0; }
+  .article__title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem; }
+  .article__text {
+    font-size: 1.6rem;
+    margin-bottom: 2rem; }
+  .article__1 {
+    background-color: var(--color-primary-dark); }
+  .article__2 {
+    background-color: var(--color-primary); }
+  .article__3 {
+    background-color: var(--color-primary-light); }
+
+#article__btn {
+  padding: .5rem;
+  font-size: 1.6rem; }
 
 .header {
   height: 100vh;
@@ -96,32 +156,3 @@ body {
   line-height: 1.6;
   color: var(--color-grey-dark-1);
   min-height: 100vh; }
-
-.smplBTN {
-  transition: .2s ease-in-out; }
-
-.smplBTN:link,
-.smplBTN:visited {
-  color: var(--color-white);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 300; }
-
-.smplBTN:hover {
-  transform: translateY(2px); }
-
-.boxBTN {
-  transition: .2s ease-in-out; }
-
-.boxBTN:link,
-.boxBTN:visited {
-  color: var(--color-white);
-  text-decoration: none;
-  font-weight: 300;
-  font-size: 2rem;
-  border: 1px solid var(--color-white);
-  padding: .7rem; }
-
-.boxBTN:hover {
-  color: var(--color-grey-dark-1);
-  background-color: var(--color-white); }
