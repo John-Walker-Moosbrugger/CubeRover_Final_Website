@@ -59,6 +59,49 @@
     .about__blurb--text {
       font-size: 1.6rem; }
 
+.ourTeam {
+  background-color: var(--color-white);
+  display: flex;
+  position: relative; }
+  .ourTeam .leftSide {
+    flex: 1 0; }
+    .ourTeam .leftSide .bio {
+      position: absolute;
+      top: 50%;
+      left: 16.5%;
+      width: 45%;
+      transform: translateY(-60%); }
+      .ourTeam .leftSide .bio__name {
+        font-size: 2.5rem; }
+      .ourTeam .leftSide .bio__text {
+        font-size: 1.6rem; }
+  .ourTeam .rightSide {
+    flex: 1 0;
+    display: flex;
+    flex-wrap: wrap; }
+    .ourTeam .rightSide .headshot {
+      flex: 0 0 33.3%;
+      overflow: hidden;
+      padding: 16.5%; }
+      .ourTeam .rightSide .headshot__One {
+        background-image: url(../img/UsOne.png);
+        background-size: cover; }
+      .ourTeam .rightSide .headshot__Three {
+        background-image: url(../img/UsThree.png);
+        background-size: cover; }
+      .ourTeam .rightSide .headshot__Five {
+        background-image: url(../img/UsFive.png);
+        background-size: cover; }
+      .ourTeam .rightSide .headshot__Six {
+        background-image: url(../img/UsSix.png);
+        background-size: cover; }
+      .ourTeam .rightSide .headshot__Seven {
+        background-image: url(../img/UsSeven.png);
+        background-size: cover; }
+      .ourTeam .rightSide .headshot__Eight {
+        background-image: url(../img/UsEight.png);
+        background-size: cover; }
+
 .news {
   display: flex; }
 
@@ -126,6 +169,23 @@
 
 .nav__logo {
   height: 4rem; }
+
+.video {
+  background-color: var(--color-white);
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-around; }
+  .video__wrapper {
+    width: 66.6%;
+    padding-bottom: 37.4%;
+    position: relative;
+    background-color: var(--color-dark-grey-1); }
+  .video__player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 :root {
   --color-primary: #645972;

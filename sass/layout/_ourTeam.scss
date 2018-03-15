@@ -1,0 +1,68 @@
+.ourTeam {
+    background-color: var(--color-white);
+    display: flex;
+    position: relative;
+
+    .leftSide {
+        flex: 1 0;
+
+        .bio {
+            position: absolute;
+            top: 50%;
+            left: 16.5%;
+            width: 45%;
+            transform: translateY(-60%);
+
+            &__name {
+                font-size: 2.5rem;
+            }
+
+            &__text {
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    .rightSide {
+        flex: 1 0;
+        display: flex;
+        flex-wrap: wrap;
+
+        .headshot {
+            flex: 0 0 33.3%;
+            overflow: hidden;
+            padding: 16.5%;
+
+            &__One {
+                background-image: url(../img/UsOne.png);
+                background-size: cover;
+            }
+
+            &__Three {
+                background-image: url(../img/UsThree.png);
+                background-size: cover;
+            }
+
+            &__Five {
+                background-image: url(../img/UsFive.png);
+                background-size: cover;
+            }
+
+            &__Six {
+                background-image: url(../img/UsSix.png);
+                background-size: cover;
+            }
+
+            &__Seven {
+                background-image: url(../img/UsSeven.png);
+                background-size: cover;
+            }
+
+            &__Eight {
+                background-image: url(../img/UsEight.png);
+                background-size: cover;
+            }
+
+        }
+    }
+}
